@@ -24,7 +24,7 @@ Overall, using the Unit of Work pattern in C# can lead to more robust and mainta
 
 ## Example
 
-The **`Unit of Work`** pattern is commonly used in conjunction with the Repository pattern to manage transactions and coordinate the work done across multiple repositories. Here's a simple example of the Unit of Work pattern in C#:
+The **`Unit of Work`** pattern is commonly used in conjunction with the **`Repository`** pattern to **`manage transactions`** and **`coordinate the work done across multiple repositories`**. Here's a simple example of the Unit of Work pattern in C#:
 
 Let's consider a scenario with two entities: **`Customer`** and **`Order`**. We'll have repositories for both, and a Unit of Work class to coordinate their work.
 
